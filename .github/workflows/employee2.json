@@ -1,0 +1,9 @@
+{
+   "employee":{
+      "first-name":"Toni",
+      "last-name":"Cranz",
+      "employee-user-name":"temp-user",
+      "employee-password":"temp-pass",
+      "employee-secret":"temp-secret"
+   }
+}
