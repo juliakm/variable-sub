@@ -11,6 +11,6 @@ jobs:
       with:
         files: 'employee.json'
       env:
-        employee-user-name: tcranz
+        username: tcranz
         #Var2.key1: "value2"
         #SECRET: ${{ secrets.SOME_SECRET }}
