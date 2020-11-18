@@ -12,5 +12,6 @@ jobs:
         files: 'employee.json'
       env:
         username: tcranz
-        #Var2.key1: "value2"
-        #SECRET: ${{ secrets.SOME_SECRET }}
+        password: ${{ secrets.PASSWORD }}
+        url: https://github.com/${{github.repository}}
+  
