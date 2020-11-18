@@ -1,0 +1,8 @@
+{  
+    "employee": {  
+        "first-name":       "Jane",   
+        "last-name":       "Doe",   
+        "employeeID":      fakeID,   
+        "employeeSSN":    fakeSSN  
+    }  
+}  
