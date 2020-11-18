@@ -1,0 +1,15 @@
+# .github/workflows/var-substitution.yml
+on: [push]
+name: variable substitution in json, xml, and yml files
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: microsoft/variable-substitution@v1 
+      with:
+        files: 'employee.json'
+      env:
+        employee-user-name: "tcranz"
+        #Var2.key1: "value2"
+        #SECRET: ${{ secrets.SOME_SECRET }}
